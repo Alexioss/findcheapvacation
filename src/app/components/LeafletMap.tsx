@@ -1,6 +1,7 @@
 'use client';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css'
 
 export default function LeafletMap() {
   // World view; adjust as you like (lat, lng, zoom)
