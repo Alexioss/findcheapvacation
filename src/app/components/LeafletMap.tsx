@@ -3,7 +3,7 @@
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 
-export default function LeafletMap() {
+export default function MapLeaflet() {
   // World view; adjust as you like (lat, lng, zoom)
   return (
     <MapContainer
